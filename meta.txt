@@ -1,0 +1,4 @@
+name: Gameloft.com
+description: Find top iPhone games and mobile games at Gameloft's official site. Preview and download games on-line, browse through our entire games catalog, get the latest news, check out our community and forum, and find the best games for your phone: iPhone, Palm Pre, Java, Android, Samsung Omnia, and all phones. Also, find great games for Nintendo DSi, Wii, PS3, and more. Great prices and free games for iPhone/iPod touch and Palm Pre! Hours of fun guaranteed!
+keywords: iphone games, mobile games, cell phone games, java games, dsi games, wii games, console games, hd games, download games on-line, phone games, games for iphone, games for ipod
+mobile: http://www.gameloft.com

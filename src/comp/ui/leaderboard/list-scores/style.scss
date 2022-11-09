@@ -1,0 +1,90 @@
+@import "../../common/header/common-var.scss";
+.clls.list-scores {
+  padding-bottom: 106px;
+  margin-top: 49px;
+  .scores-list {
+    margin-bottom: 28px;
+    .items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0;
+      border-top: 2px dashed rgba(255, 255, 255, 0.5);
+
+      .no {
+        @include roboto-400-sm;
+        margin-right: 8px;
+        color: #000000;
+      }
+
+      .avatar {
+        width: 42px;
+        height: 42px;
+        border: 1px solid #ffffff;
+        border-radius: 31.3433px;
+        margin-right: 8px;
+      }
+
+      .name {
+        @include roboto-400-sm;
+        color: #000000;
+        word-break: break-word;
+        width: 60%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+
+      .points {
+        margin-left: auto;
+        @include roboto-400-sm;
+        color: #000000;
+      }
+    }
+  }
+  .back-to-top{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    .content{
+      @include roboto-400-sm;
+      color: #494949;
+      margin-right: 8px;
+
+    }
+    button{
+      @include sora-600-sm;
+      color: #FF0053;
+      border: 0;
+      background: transparent;
+    }
+  }
+  .view-pre-leaderboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    button {
+      @include sora-800-sm;
+      color: #004483;
+      border: 1.5px solid #004483;
+      box-shadow: 0px 2px 0px #004586;
+      border-radius: 100px;
+      background: #ffffff;
+      padding: 8px 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        margin-left: 4px;
+        color: #004483;
+        font-size: 14px;
+      }
+    }
+  }
+}

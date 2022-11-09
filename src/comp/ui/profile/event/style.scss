@@ -1,0 +1,30 @@
+@import "../../common/header/common-var.scss";
+
+.cpe.event {
+  padding: 0 16px;
+  margin-top: 50px;
+  margin-bottom: 12px;
+  margin-bottom: 122px;
+  .event-container{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    .title{
+      @include sora-800-lg;
+      color: #000000;
+      display: inline-block;
+      p{
+        color: rgba(255, 0, 83, 1);
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .content{
+      @include roboto-400-md;
+      color: #494949;
+    }
+  }
+}

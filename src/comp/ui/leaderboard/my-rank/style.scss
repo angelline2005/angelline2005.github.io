@@ -1,0 +1,81 @@
+@import "./../../common/header/common-var.scss";
+
+.container {
+  padding: 0 16px;
+}
+
+.clmr.my-rank {
+  margin-bottom: 20px;
+  .profile-main {
+    padding: 20px;
+    background: white;
+    border-radius: 16px;
+  }
+  .profile {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e9e9e9;
+    &-left {
+      border-right: 1px dashed rgba(196, 196, 196, 1);
+      padding-right: 8px;
+      grid-column: span 3 / span 3;
+
+      .avatar {
+        margin-bottom: 4px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 52px;
+          height: 52px;
+          border: 2px solid #04223f;
+          border-radius: 73.1343px;
+        }
+      }
+
+      .name {
+        @include roboto-600-lg;
+        color: #04223f;
+        text-transform: capitalize;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        word-break: break-all;
+      }
+    }
+
+    &-right {
+      grid-column: span 9 / span 9;
+
+      i {
+        color: #04223f;
+        width: 20px;
+        height: 20px;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 4px;
+        display: flex;
+        justify-content: center;
+      }
+      .text {
+        @include roboto-400-sm;
+        color: #04223f;
+      }
+      .game {
+        margin-bottom: 6px;
+      }
+      .game,
+      .rank {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

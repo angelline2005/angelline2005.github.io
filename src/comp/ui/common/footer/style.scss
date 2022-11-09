@@ -1,0 +1,54 @@
+.cf {
+  &.footer {
+    padding: 32px 0;
+    margin: 0 16px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+
+  .footer-lines {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fl-title {
+    margin-bottom: 16px;
+  }
+
+  .fl-copy-right {
+    margin-bottom: 16px;
+    color: #DFDFDF;
+    opacity: 0.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .fl-policy {
+    margin-bottom: 16px;
+    font-size: 16px;
+
+    span {
+      margin: 0 2px;
+    }
+
+    a {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  .fl-warning {
+    color: #DFDFDF;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

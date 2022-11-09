@@ -1,0 +1,59 @@
+.ath-container {
+  display: none;
+  width: 100%;
+  
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+}
+.athsb-img {
+  width: .28rem;
+  height: .28rem;
+  background-image: url("../../../../../images/icon/game1-blue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: .16rem;
+}
+.athsb-scroll-container {
+  position: relative;
+  overflow: hidden;
+  width: 1.94rem;
+	height: .40rem;
+}
+.athsb-text {
+  font-weight: 600;
+  font-size:.14rem;
+  line-height: .49rem;
+  color: #1890FF;
+  margin-left: -0.09rem;
+  LETTER-SPACING: 0.28px;
+}
+.text-scroll-left-template {
+  position: absolute;
+  animation: text-scroll-left-template 6s linear infinite;
+  white-space: nowrap;
+}
+@keyframes text-scroll-left-template {
+  0% {
+    transform: translateX(90%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+}
+.athsb-btn {
+  width: 1.00rem;
+  height: .28rem;
+  margin: 0.08rem;
+  background: #1890FF;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0.04rem;  
+  font-weight: bold;
+  font-size: .12rem;
+  line-height: .32rem;
+  color: #FFFFFF;
+}
+.ath-adapter {
+  display: none;
+  height: .44rem;
+}

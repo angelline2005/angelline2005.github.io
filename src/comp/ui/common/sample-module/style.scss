@@ -1,0 +1,33 @@
+@import "../header/common-var.scss";
+.csm.sample-module {/* need ".csm" on first css rules. read container.html file for "csm" meaning*/
+  display: block;
+  .bezier {
+    font-size: .14px;
+    .container {
+      position: relative;
+      width: 80vw;
+      height: 80vw;
+      margin: 0 auto 0;
+      background: grey;
+      .item {
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        background: red;
+        left: 0%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+        
+        transition: all 5s;
+        transition-timing-function: cubic-bezier(0.1, 0.9, 0.1, 0.98);
+      }
+    }
+    .container:hover .item {
+      top: 0%;
+      background: green;
+    }
+    .title {
+      @include title-big
+    }
+  }
+}

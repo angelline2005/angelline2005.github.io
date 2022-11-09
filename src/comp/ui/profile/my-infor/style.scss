@@ -1,0 +1,74 @@
+@import "../../common/header/common-var.scss";
+
+.cpmi.my-infor {
+  padding: 0 16px;
+  margin-top: 50px;
+  margin-bottom: 12px;
+
+  .my-infor-top {
+    position: relative;
+
+    .title {
+      @include sora-800-xl;
+      color: #004483;
+      margin-bottom: 8px;
+    }
+
+    .logout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 32px;
+      height: 32px;
+      border: 2px solid #04223F;
+      border-radius: 100px;
+
+      i {
+        color: #04223F;
+        font-size: 14px;
+      }
+
+    }
+
+    .email-form {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 16px;
+
+      .icon {
+        margin-right: 10px;
+
+        i {
+          color: #494949;
+          font-size: 12px;
+        }
+      }
+
+      .email {
+        @include roboto-400-sm;
+        color: #494949;
+        margin-right: 10px;
+      }
+
+      .btn-edit {
+        border: 2px solid #04223F;
+        background: #FFFFFF;
+        border-radius: 100px;
+        padding: 4px 12px;
+        color: #04223F;
+        @include sora-600-sm;
+        text-transform: uppercase;
+      }
+    }
+    .description{
+      @include roboto-400-sm;
+      color: #FF0053;
+      font-style: italic;
+    }
+
+  }
+}

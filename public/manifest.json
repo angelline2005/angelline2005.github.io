@@ -1,0 +1,21 @@
+{
+  "name": "Ludigames",
+  "short_name": "Ludigames",
+  "description": "Ludigames is a HTML5 gaming portal, easy access from your browsers.",
+  "icons": [
+    {
+      "src": "./ludigames_logo_192-8.png",
+      "sizes": "any",
+	  "purpose": "any"
+    }
+  ],
+  "scope": "./",
+  "start_url": "./index.html?utm_source=gameloft&utm_medium=bookmark&utm_campaign=ATHS",
+  "background_color": "#fff",
+  "display": "standalone",
+  "gcm_sender_id": "103953800507",
+  "gcm_user_visible_only": true,
+  "permissions": [
+    "gcm"
+  ]
+}

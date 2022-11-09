@@ -1,0 +1,41 @@
+@import "../header/common-var.scss";
+.cib.infor-button {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 16px;
+  bottom: 45px;
+  z-index: $zi-infor-button;
+  .btn-popup {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px;
+    button {
+      border: 1.5px solid #004483;
+      box-shadow: 0px 2px 0px #004586;
+      border-radius: 100px;
+      color: #004483;
+      background: white;
+      @include sora-800-sm;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div{
+        max-width: 45px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      i {
+        margin-right: 8px;
+        font-size: 14px;
+        color: #004483;
+      }
+    }
+  }
+}
