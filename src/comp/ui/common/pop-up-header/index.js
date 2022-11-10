@@ -1,6 +1,5 @@
 import "./../header/common.scss";
 import "./style.scss";
-import prizesImg from "./../../index/main-banner/images/main_banner.png";
 
 
 import {
@@ -18,7 +17,7 @@ import {
 } from "../../../../globals";
 import { faqsGeneralQuestionsData, faqsPhysicalQuestionsData, prizesData } from "./data";
 import { log, ls_user } from "../../../js/user";
-import { cli_show } from "../log-in";
+// import { cli_show } from "../log-in";
 let backUrl = originPath() + "index.html"
 //test param
 let adsv2Path = ""
@@ -50,7 +49,6 @@ const tc = popUpHeader.querySelector(".tc-popup");
 const prizes = popUpHeader.querySelector(".prizes-popup");
 const prizesContent = prizes.querySelector(".prizes-popup-content");
 const prizesContentTpl = prizesContent.querySelector("template");
-const prizesImgDiv = prizes.querySelector(".prizes-popup-img img");
 
 const faqsPopupMh = popUpHeader.querySelector(".faqs-popup-mh");
 const faqsQuestions = popUpHeader.querySelector(".faqs-popup-questions");
@@ -205,7 +203,6 @@ const showData = () => {
 
 let addListener = () => {
   myConsoleLog(name, addListener.name);
-  prizesImgDiv.src = prizesImg;
 
   popUpHeader.onclick = (event) => {
     myConsoleLog(name, varToString({ popUpHeader }), "onclick");
@@ -250,7 +247,7 @@ let addListener = () => {
         if (log.is) {
           redirect_to(originPath() + "game.html");
         } else {
-          cli_show();
+          // cli_show();
         }
         cph_hide();
       }

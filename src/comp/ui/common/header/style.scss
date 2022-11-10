@@ -11,12 +11,13 @@ $button-color-active--background: #EE2E8E;
   // display: none;
   position: sticky;
   z-index: $zi-header;
-  top: 37px;
-  width: calc(100% - 32px);
+  top: 0px;
+  width: var(mobile-w);
   height: 40px;
+  padding: 8px 16px;
   justify-content: space-between;
-  margin: 10px 16px;
   color: $test-color;
+  background: linear-gradient(153.43deg, #1890FF 16.67%, #0061BA 100%);
   .icon{
     width: 118px;
     height: 40px;

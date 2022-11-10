@@ -13,7 +13,7 @@ import {
 } from "../../../../globals";
 import { cph_STATE, cph_show, cph_hide, cph_hideAll } from "../pop-up-header/index";
 
-import { cli_show } from "../log-in";
+// import { cli_show } from "../log-in";
 import { log } from "../../../js/user";
 const name = "ch-header";
 const body = document.querySelector("body");
@@ -52,7 +52,7 @@ let addListener = () => {
     if (log.is) {
       redirect_to(originPath() + "profile.html");
     } else {
-      cli_show();
+      // cli_show();
     }
   }
   btn_menu.onclick = (event) => {

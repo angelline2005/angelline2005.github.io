@@ -6,7 +6,7 @@ $tablet-w: 834;
 $desktop-w: 1500;
 
 // color
-$tournament-color-light-blue: #B7E7F1;
+$background-color-white: #F8F8F8;
 // components
 @mixin title-big {
   font-family: 'Roboto';
@@ -16,56 +16,56 @@ $tournament-color-light-blue: #B7E7F1;
   line-height: 40px;
 }
 @mixin sora-800-xl {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
   line-height: 40px;
 }
 @mixin sora-800-lg {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
   line-height: 28px;
 }
 @mixin sora-800-md {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
 }
 @mixin sora-800-sm {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
   line-height: 20px;
 }
 @mixin sora-700-md {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
 }
 @mixin sora-700-sm {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
 }
 @mixin sora-600-sm {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
 }
 @mixin sora-400-lg {
-  font-family: 'Sora';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

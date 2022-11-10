@@ -13,17 +13,7 @@ import { myConsoleLog, fetchProducts, originPath, device, store_ACTION_TYPE, sto
 import "./comp/js/user/index.js"
 
 require("./comp/ui/common/sample-module/index.js");
-require("./comp/ui/index/redirect-to-portal/index.js");
 require("./comp/ui/common/pop-up-header/index.js");
-require("./comp/ui/common/log-in/index.js");
-require("./comp/ui/common/infor-button/index.js");
-require("./comp/ui/common/time-left/index.js");
-require("./comp/ui/index/main-banner/index.js");
-require("./comp/ui/leaderboard/top-3/index.js");
-require("./comp/ui/leaderboard/my-rank/index.js");
-require("./comp/ui/leaderboard/my-scores/index.js");
-require("./comp/ui/index/more-games/index.js");
-require("./comp/ui/leaderboard/pop-up-my-scores/index.js");
 
 //footer
 require("./comp/ui/common/footer/index.js");

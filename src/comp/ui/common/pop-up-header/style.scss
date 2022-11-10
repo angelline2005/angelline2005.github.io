@@ -23,10 +23,7 @@ $button-color-active--background: #ee2e8e;
 
   .menu-popup {
     display: none;
-    background: url(./../header/img/cloud-01.svg), url(./../header/img/cloud-02.svg), url(./../header/img/bot-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: calc(100% + 20px) 126px, -4px 13px, 0 calc(100% + 145px);
-    background-color: $tournament-color-light-blue;
+    background-color: $background-color-white;
     position: fixed;
     width: 100vw;
     max-height: 100vh;
