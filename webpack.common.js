@@ -69,7 +69,7 @@ module.exports = {
       {
         path: path.join(__dirname, 'src/comp/ui/common/sample-module/container.html'),
         template_filename: all_html,
-        location: 'csm-sample-module',
+        location: 'c-sample-module',
         priority: "replace",
       },
       // game

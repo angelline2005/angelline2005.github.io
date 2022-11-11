@@ -2,8 +2,8 @@ import "./style.scss"
 
 import { elHide, myConsoleLog } from "../../../../globals.js";
 
-const name = "csm-sample-module";
-const sampleModule = document.querySelector(".csm.sample-module")
+const name = "c-sample-module";
+const sampleModule = document.querySelector(".c.sample-module")
 
 let addListener = () => {
   myConsoleLog(name, addListener.name);  
