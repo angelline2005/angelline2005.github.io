@@ -1,6 +1,0 @@
-{
-  "testId": "abc en %{2}",
-  "testSubId": "testId en",
-  "testSubId_subStr": "testId %{0} test-id %{1}",
-  "test-id": "a-b-c en"
-}
